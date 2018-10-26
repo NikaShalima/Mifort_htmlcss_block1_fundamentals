@@ -1,0 +1,370 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    color: #222;
+}
+a{
+    text-decoration:none;
+    color:#0080a5;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+    color: #b30000;
+}
+h1{
+    border-bottom: lightgrey 1px solid;
+    margin-bottom: 0.25em;
+}
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.25em;
+}
+h3 {
+    font-size: 0.75em;
+    font-weight: normal;
+   border-bottom:  lightgrey 1px solid;
+}
+button{
+    border:0;
+    padding:0;
+    cursor: pointer;
+    background: transparent;
+}
+.wrapper{
+    display:flex;
+    flex-flow:row;
+}
+.main{
+    width:100%;
+}
+.header-nav{
+    list-style: none;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.header-nav li{
+    line-height: 1.125em;
+    margin-left: 0.75em;
+    margin-top: 0.5em;
+    font-size: 0.75em;
+    margin-right: 1em;
+}
+.anonymous{
+    color:#999;
+}
+.anonymous:before{
+    font-family: FontAwesome;
+    content: "\f007";
+    padding-right: 5px;
+    font-size: 1.2em;
+    color: #222222;
+}
+.tab-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightsteelblue;
+    line-height: 1.8em;
+}
+ul{
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+.tab-panel ul li{
+    padding-left: 0.615em;
+    padding-right: 0.615em;
+    padding-top: 5px;
+    border-left: solid 1px;
+    border-image: linear-gradient(to top, lightsteelblue, rgba(0, 0, 0, 0)) 1 80%;
+}
+
+.tab-panel ul li a{
+    padding-left: 0.615em;
+    padding-right: 0.615em;
+    font-size: 0.8125em;
+    padding-top: 1.25em;
+}
+.tab-panel ul li.active{
+    background-color: white;
+}
+.tab-panel ul li.active a{
+   color: #222;
+}
+.right-tab{
+    display: flex;
+    flex-direction: row;
+}
+.right-tab ul li:last-child{
+    vertical-align:middle;
+}
+.search{
+    padding: 0.2em 0 0.2em 0.2em;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    max-width: 320px;
+    background-color: white;
+}
+.search input{
+border: none;
+    font-size: 0.8em;
+}
+.search .fa-search{
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+.left-tab{
+    display: flex;
+    flex-direction: row;
+}
+.mainSection{
+    padding: 1.25em 1.5em 1.5em 1.5em;
+    border-left: 1px solid lightsteelblue;
+    border-bottom: 1px solid lightsteelblue;;
+    line-height: 1.6;
+    font-size: 0.875em;
+    background-color: white;
+}
+
+.siteSub{
+    display:flex;
+}
+.siteSub button, .subSection button{
+  color: #663399;
+    font-size: 0.8em;
+}
+.siteSub button:hover, .subSection button:hover{
+    color:#b30000;
+    text-decoration: underline;
+}
+ .edit:before{
+    content: "[";
+    padding-right: 5px;
+}
+.edit:after{
+    content: "|";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.editCode:after{
+    content: "]";
+    padding-left: 5px;
+}
+.subtitle{
+    margin-right: auto;
+    font-size: 0.8em;
+}
+.fa-external-link{
+    font-size: 0.8em!important;
+}
+.image{
+    clear: right;
+    float: right;
+    margin: 0.5em 0 1.3em 1.4em;
+    border: 1px solid lightsteelblue;
+    padding: 3px;
+    background: snow;
+}
+.image img{
+    width: 225px;
+}
+.image figcaption{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+.image figcaption a .fa-window-restore{
+    text-align: right;
+}
+.fa-window-restore{
+    color:grey;
+}
+aside{
+width: 12em;
+}
+.logo{
+    margin-top: 0.8em;
+    margin-bottom:1em;
+}
+.logo img{
+    width: 10em;
+}
+.sidebar{
+    padding: 1em;
+}
+.sidebar ul li{
+    font-size: 0.75em;
+    padding: 0.25em 0;
+    line-height: 1.125em;
+}
+.lang{
+    padding: 4px 6px;
+    font-size: 13px;
+    border: 1px solid #a2a9b1;
+}
+.fa-globe{
+    color:darkgreen;
+}
+.editLink{
+    color:darkgray;
+}
+.langSet .fa-cog{
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+.editLink:before{
+    font-family: FontAwesome;
+    content: "\f040";
+    padding-right: 5px;
+}
+.contentNav{
+    border:1px solid grey;
+    background-color: snow;
+    max-width:220px;
+    padding: 7px;
+}
+.contentNav h2{
+    font-size: 95%;
+}
+.contentNav ol{
+  margin: 0;
+    padding-left: 10px;
+    counter-reset: item;
+    list-style-type: none;
+    font-size: 95%;
+}
+.contentNav li {
+    margin-bottom: 0.1em;
+}
+.contentNav ol li:before {
+    content: counter(item) "  ";
+    counter-increment: item
+}
+.contentNav .hide{
+    margin-top: 7px;
+}
+.contentNavHeader{
+    display: flex;
+    justify-content: center;
+}
+.hide{
+    color:#0080a5;
+    margin-left: 0.5em;
+}
+.hide:after{
+    content: "]";
+}
+.hide:before{
+    content: "[";
+}
+.subSection{
+    display:flex;
+    border-bottom:lightgrey 1px solid;
+}
+.subSection button{
+    margin-top: 11px;
+}
+.subSection .edit{
+    margin-left: 10px;
+}
+pre{
+    color: blue;
+    background-color: aliceblue;
+    border: 1px solid lightgrey;
+    padding: 1em;
+    font-size:1.2em;
+}
+.bullet{
+    padding-left: 1em;
+    text-indent: -.7em;
+    margin: 0.3em 0 0 1.6em;
+}
+
+.bullet li:before {
+    content: "• ";
+    color: #0080a5; /* or whatever color you prefer */
+}
+.boxHeader{
+    display: flex;
+    justify-content:space-between;
+    background-color: lightskyblue;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.navbox .fa-cog{
+    font-size: 1.3em;
+}
+.boxHeader:nth-child(1){
+font-size: 112%;
+}
+.navbox{
+    border: 1px solid lightgrey;
+    margin: 1em auto 0;
+    font-size: 88%;
+    text-align: center;
+    padding: 0.25em 0.5em;
+    background-color: snow;
+}
+.navbox ul{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 1px 0 0;
+}
+.navbox ul li{
+  padding-right: 5px;
+
+}
+.navbox ul li:before{
+    content: "• ";
+    color: darkslategray;
+}
+.navbox ul li a{
+    color:firebrick;
+}
+.category{
+    border: 1px solid lightgrey;
+    margin: 1em auto 0;
+    padding: 0.25em 0.5em;
+    background-color: snow;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.category ul{
+    display: flex;
+flex-flow: row wrap;
+}
+.category ul li:after{
+    content: "|";
+    padding-left:3px;
+    padding-right: 3px;
+}
+.category ul li:last-child::after{
+    content: "";
+}
+footer{
+    padding: 1.25em;
+    line-height: 1.4em;
+    font-size: 0.7em;
+}
+footer ul li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+footer nav ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+footer nav ul li{
+    margin-right: 1em;
+    line-height: 2em;
+}
