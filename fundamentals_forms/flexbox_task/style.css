@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    line-height: 1.25;
+}
+h1{
+    font-size:36px;
+}
+p{
+    font-size:16px;
+}
+.container{
+    max-width:1170px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.text_grey{
+    color:#7e8082;
+}
+.company_name{
+    background: url("images/header.png") 100% 100% no-repeat;
+    color:white;
+}
+.company_name h1{
+    margin: 0px;
+    padding: 60px  0px 20px 0px;
+    font-weight: bold;
+}
+.company_name p{
+    margin: 0px;
+    padding-bottom: 60px;
+    font-size: 14px;
+}
+.product_row{
+    display: flex;
+}
+.product_row h2{
+    color:#2a2b2f;
+}
+.link_text{
+    color:#003f60;
+    text-decoration: none;
+}
+.bold_link{
+    color:#003f60;
+    font-weight: bolder;
+}
+.link_text:hover, .link_text:focus{
+    text-decoration: underline;
+}
+.first_block{
+    flex-basis: 50%;
+    padding: 3% 5% 0 10%;
+    font-size: 16px;
+}
+.product_img, .product_info{
+    width: 50%;
+}
+.resposive_img{
+    width: 100%;
+    height: auto;
+}
+.hover_block{
+    background-color: #eeeeee;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.hover_block:focus, .hover_block:hover{
+    background: rgba(0, 52, 79, .4);
+    opacity: 0.9;
+    cursor: pointer;
+    position: relative;
+}
+.hover_block:hover:after{
+    font-family: "FontAwesome";
+    content: "\f0a9"; /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; /* change this value to one that suits you */
+    color:white;
+}
+@media only screen and (max-width: 1000px){
+    .product_row{
+        flex-direction: column;
+    }
+}

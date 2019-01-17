@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d08b12b-bbe5-4faf-a988-66357cd99879" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="header.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/header.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fundamentals_forms/email_task/indexbkp.html" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/index1.html" />
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/fundamentals_forms/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mifort_htmlcss_block1_fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mifort_htmlcss_block1_fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mifort_htmlcss_block1_fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mifort_htmlcss_block1_fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentals_forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mifort_htmlcss_block1_fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mifort_htmlcss_block1_fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentals_forms" type="462c0819:PsiDirectoryNode" />
+              <item name="flexbox_task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mifort_htmlcss_block1_fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mifort_htmlcss_block1_fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="fundamentals_forms" type="462c0819:PsiDirectoryNode" />
+              <item name="flexbox_task" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Mifort_htmlcss_block1_fundamentals/fundamentals_forms/email_task/index.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d08b12b-bbe5-4faf-a988-66357cd99879" name="Default" comment="" />
+      <created>1540547819683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540547819683</updated>
+      <workItem from="1540547821575" duration="15250000" />
+      <workItem from="1540633637424" duration="25749000" />
+      <workItem from="1540724639188" duration="20747000" />
+      <workItem from="1540880568479" duration="22234000" />
+      <workItem from="1540971844468" duration="3541000" />
+      <workItem from="1541063334755" duration="4223000" />
+      <workItem from="1541154994097" duration="1420000" />
+      <workItem from="1541318916691" duration="54000" />
+      <workItem from="1541319041266" duration="3000" />
+      <workItem from="1541320991368" duration="121000" />
+      <workItem from="1541321306298" duration="265000" />
+      <workItem from="1541324576643" duration="451000" />
+      <workItem from="1545294937602" duration="1197000" />
+      <workItem from="1547448888335" duration="1806000" />
+      <workItem from="1547451368876" duration="6177000" />
+      <workItem from="1547530659650" duration="4686000" />
+      <workItem from="1547616905306" duration="6535000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114869624" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28121212" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.28727272" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114869624" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28848484" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/test/test.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelop1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelope2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/face2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelop1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelope2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/face2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/icon1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/style.css" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/typography.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/indexbkp.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/item1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/foto1.jpg" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/icon4.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/icon2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/icon3.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/phone2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/phone1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/face1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/item2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/icon1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelop1.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/envelope2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/images/face2.png" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/test.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/header.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
