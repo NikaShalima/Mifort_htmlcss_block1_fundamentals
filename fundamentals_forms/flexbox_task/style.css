@@ -1,26 +1,29 @@
 
+
 *{
     box-sizing: border-box;
+}
+html{
+    font-size:16px;
 }
 body {
     margin: 0;
     line-height: 1.25;
+    font-family: 'Circe';
 }
-h1{
-    font-size:36px;
+ul{
+    margin: 0;
+    padding: 0;
 }
-p{
-    font-size:16px;
+li{
+    list-style: none;
 }
 .container{
     max-width:1170px;
     margin-right:auto;
     margin-left:auto;
-    padding-right:15px;
-    padding-left: 15px;
-}
-.text_grey{
-    color:#7e8082;
+    padding-right:30px;
+    padding-left: 30px;
 }
 .company_name{
     background: url("images/header.png") 100% 100% no-repeat;
@@ -28,42 +31,57 @@ p{
 }
 .company_name h1{
     margin: 0px;
-    padding: 60px  0px 20px 0px;
-    font-weight: bold;
+    padding: 30px  0px 12px 0px;
+    font-weight: 800;
+    font-size: 2.6rem;
 }
 .company_name p{
     margin: 0px;
-    padding-bottom: 60px;
-    font-size: 14px;
+    padding-bottom: 40px;
+    font-size: 1rem;
+    font-weight: 300;
 }
 .product_row{
     display: flex;
-}
-.product_row h2{
-    color:#2a2b2f;
 }
 .link_text{
     color:#003f60;
     text-decoration: none;
 }
-.bold_link{
+.item_link{
     color:#003f60;
     font-weight: bolder;
 }
 .link_text:hover, .link_text:focus{
     text-decoration: underline;
 }
-.first_block{
+.about_block{
     flex-basis: 50%;
-    padding: 3% 5% 0 10%;
-    font-size: 16px;
+    font-size: 1rem;
+    color:#020508;
+    padding: 2% 5% 2% 11%;
 }
-.product_img, .product_info{
+.product_img, .product_info_block{
     width: 50%;
+}
+.product_info_block h2{
+    color:#2a2b2f;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.item_info{
+    width: 80%;
+    margin: 0 auto;
+    padding: 7% 0;
+    color:#7e8082;
+}
+.item_info p{
+    font-size: 0.875rem;
 }
 .resposive_img{
     width: 100%;
     height: auto;
+    display: block;
 }
 .hover_block{
     background-color: #eeeeee;
@@ -79,15 +97,138 @@ p{
 }
 .hover_block:hover:after{
     font-family: "FontAwesome";
-    content: "\f0a9"; /* no need for qoutes */
+    content: "\f0a9";
     display: block;
     position: absolute;
-    left: 123px; /* change this value to one that suits you */
-    top: 56px; /* change this value to one that suits you */
+    left: 94%;
+    top: 45%;
     color:white;
+    font-size: 30px;
 }
-@media only screen and (max-width: 1000px){
-    .product_row{
+.scroll .fa{
+    vertical-align: -7px;
+    margin-left: 10px;
+}
+.separator{
+    background-color: #00344f;
+    height: 90px;
+    line-height: 88px;
+}
+.underline_link{
+    border-bottom: 3px solid white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.separator a{
+    color: white;
+}
+.phone{
+    display: flex;
+    margin-left: auto;
+}
+.phone li{
+    padding-left: 40px;
+}
+.flex_separator{
+    display:flex;
+}
+.advantage{
+    background: url("images/oil.png") top right no-repeat;
+}
+.main_advantage{
+    width: 50%;
+}
+.list_advantage{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list_advantage li{
+    flex-basis: 25%;
+}
+.advantage-1{
+    position: relative;
+    padding-left: 30px;
+}
+.advantage-1:before{
+    content: '';
+    width: 40px;
+    height: 35px;
+    background: url("images/sprite.png") -10px -70px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .product_row {
         flex-direction: column;
     }
+
+    .hover_block:nth-child(2) .product_info {
+        order: 2;
+    }
+
+    .phone {
+        flex-direction: column;
+    }
+
+    .list_advantage li {
+        flex-basis: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    HTML{
+        font-size: 14px;
+    }
+    .flex_separator{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 360px){
+    .hidden{
+        display: none;
+    }
+}
+
+/*.bg-Asset_7 {
+    width: 31px; height: 34px;
+    background: url('css_sprites.png') -130px -59px;
+}
+
+x
+.bg-Asset_4 {
+    width: 40px; height: 35px;
+    background: url('css_sprites.png') -10px -70px;
+}
+
+x
+.bg-Asset_6 {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-Asset_8 {
+    width: 40px; height: 29px;
+    background: url('css_sprites.png') -130px -10px;
+}
+
+x
+.bg-Asset_9 {
+    width: 40px; height: 38px;
+    background: url('css_sprites.png') -70px -10px;
+}
+
+x
+.bg-Asset_10 {
+    width: 40px; height: 32px;
+    background: url('css_sprites.png') -70px -70px;
+}
+
+x
+.bg-Asset_11 {
+    width: 40px; height: 25px;
+    background: url('css_sprites.png') -10px -125px;
 }

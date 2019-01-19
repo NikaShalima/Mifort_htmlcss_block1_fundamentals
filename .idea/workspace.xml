@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d08b12b-bbe5-4faf-a988-66357cd99879" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts/Circe-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/oil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,33 +31,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="452">
+              <caret line="82" column="83" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="426">
+              <caret line="171" column="12" selection-start-line="126" selection-start-column="22" selection-end-line="177" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="img1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png">
+      <file leaf-file-name="img3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img3.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="font.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="header.png" pinned="false" current-in-tab="false">
@@ -75,8 +89,9 @@
         <option value="$PROJECT_DIR$/fundamentals_forms/email_task/index.html" />
         <option value="$PROJECT_DIR$/fundamentals_forms/index1.html" />
         <option value="$PROJECT_DIR$/test/test.html" />
-        <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/stylesheet.css" />
         <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html" />
+        <option value="$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css" />
       </list>
     </option>
   </component>
@@ -140,6 +155,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fundamentals_forms/flexbox_task/images" />
+      <recent name="$PROJECT_DIR$/fundamentals_forms/flexbox_task" />
+      <recent name="$PROJECT_DIR$/fundamentals_forms/flexbox_task/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,16 +205,18 @@
       <workItem from="1547448888335" duration="1806000" />
       <workItem from="1547451368876" duration="6177000" />
       <workItem from="1547530659650" duration="4686000" />
-      <workItem from="1547616905306" duration="6535000" />
+      <workItem from="1547616905306" duration="17781000" />
+      <workItem from="1547751311487" duration="5242000" />
+      <workItem from="1547880973137" duration="1759000" />
+      <workItem from="1547917285225" duration="4422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17465000" />
+    <option name="totallyTimeSpent" value="40134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114869624" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -221,19 +240,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114869624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28848484" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -244,9 +263,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
-    <entry file="file://$PROJECT_DIR$/test/test.html" />
-    <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/email_task/index1.html" />
@@ -299,29 +315,34 @@
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/header.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css">
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/demo.html" />
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/font.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/images/img3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="452">
+          <caret line="82" column="83" selection-start-line="82" selection-start-column="83" selection-end-line="82" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals_forms/flexbox_task/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="171" column="12" selection-start-line="126" selection-start-column="22" selection-end-line="177" selection-end-column="1" />
         </state>
       </provider>
     </entry>
