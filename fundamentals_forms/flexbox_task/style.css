@@ -18,6 +18,9 @@ ul{
 li{
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 .container{
     max-width:1170px;
     margin-right:auto;
@@ -105,6 +108,9 @@ li{
     color:white;
     font-size: 30px;
 }
+.scroll{
+    flex-grow: 1;
+}
 .scroll .fa{
     vertical-align: -7px;
     margin-left: 10px;
@@ -116,27 +122,46 @@ li{
 }
 .underline_link{
     border-bottom: 3px solid white;
-    text-decoration: none;
+    text-decoration: none!important;
     font-size: 1.25rem;
 }
 .separator a{
     color: white;
 }
+.separator a:hover{
+    text-decoration: underline;
+}
+.phone_block{
+    flex-basis: 50%;
+    align-items: flex-end;
+}
 .phone{
     display: flex;
-    margin-left: auto;
+   /* margin-left: auto;*/
+    justify-content: space-between;
 }
 .phone li{
-    padding-left: 40px;
+    flex-basis: 25%;
 }
 .flex_separator{
     display:flex;
 }
-.advantage{
+#advantages{
     background: url("images/oil.png") top right no-repeat;
 }
 .main_advantage{
     width: 50%;
+    padding: 0 0 100px 0;
+}
+.main_advantage h1{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 40px 0 30px 0;
+    line-height: 1.2;
+    margin: 0;
+}
+.main_advantage p{
+    margin: 0 0 10px;
 }
 .list_advantage{
     display:flex;
@@ -145,19 +170,140 @@ li{
 }
 .list_advantage li{
     flex-basis: 25%;
-}
-.advantage-1{
     position: relative;
-    padding-left: 30px;
+    padding-left: 70px;
 }
+.list_advantage h2{
+    font-size: 1.125rem;
+    margin: 0;
+}
+.list_advantage p{
+color:#6b6d6f;
+    padding: 5px 0 50px 0;
+    margin: 0;
+}
+
 .advantage-1:before{
     content: '';
     width: 40px;
     height: 35px;
     background: url("images/sprite.png") -10px -70px;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 0px;
+}
+.advantage-2:before{
+    content: '';
+    width: 31px;
+    height: 34px;
+    background: url("images/sprite.png") -130px -59px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.advantage-3:before{
+    content: '';
+    width: 40px;
+    height: 38px;
+    background: url("images/sprite.png") -70px -10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.advantage-4:before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url("images/sprite.png") -10px -10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.advantage-5:before{
+    content: '';
+    width: 40px;
+    height: 29px;
+    background: url("images/sprite.png")  -130px -10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.advantage-6:before{
+    content: '';
+    width: 40px;
+    height: 32px;
+    background: url("images/sprite.png")   -70px -70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.advantage-7:before{
+    content: '';
+    width: 40px;
+    height: 25px;
+    background: url("images/sprite.png")   -10px -125px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contact_flex{
+    display:flex;
+}
+.contact_block{
+    flex-grow: 1;
+    padding-left: 11%;
+}
+.map{
+    flex-grow: 2;
+}
+.contact_block h1{
+    font-size: 24px;
+    padding-top:40px;
+    margin: 0;
+}
+.contact_block p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.contact_name{
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.contact_name:before{
+    width: 30px;
+    background-color: #ee3033;
+    border-radius: 5px;
+    font-family: 'FontAwesome';
+    color: #ffffff;
+    font-size: large;
+    margin-right: 24px;
+}
+.contact_phone:before{
+    content: "\f095";
+    padding: 2px 4px;
+}
+.contact_info{
+    margin: 0 0 50px 50px;
+}
+.contact_info a{
+    color: black;
+}
+.contact_info a:hover{
+    text-decoration: underline;
+}
+.contact-address:before{
+    content: "\f041";
+    padding: 2px 6px;
+}
+.contact_email:before {
+    content: "\f0e0";
+    padding: 1px 2px;
+}
+.underline{
+    border-bottom: solid 1px;
+}
+.underline:hover{
+    text-decoration: none!important;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -172,63 +318,52 @@ li{
     .phone {
         flex-direction: column;
     }
-
+.list_advantage{
+    flex-direction: column;
+}
     .list_advantage li {
         flex-basis: auto;
     }
-}
-
-@media only screen and (max-width: 768px){
-    HTML{
-        font-size: 14px;
-    }
-    .flex_separator{
-        flex-wrap: wrap;
-    }
-}
-@media only screen and (max-width: 360px){
     .hidden{
         display: none;
     }
 }
 
-/*.bg-Asset_7 {
-    width: 31px; height: 34px;
-    background: url('css_sprites.png') -130px -59px;
+
+
+@media only screen and (max-width: 768px) {
+    HTML {
+        font-size: 14px;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .flex_separator {
+        flex-wrap: wrap;
+    }
+
+    #advantages {
+        background: none;
+    }
+
+    .main_advantage {
+        width: 100%;
+    }
+
+    .contact_flex {
+        flex-direction: column;
+    }
+
+    .contact_block {
+        padding-left: 5%;
+    }
+
+    .main_advantage {
+        padding: 0 0 50px 0;
+    }
+
 }
 
-x
-.bg-Asset_4 {
-    width: 40px; height: 35px;
-    background: url('css_sprites.png') -10px -70px;
-}
-
-x
-.bg-Asset_6 {
-    width: 40px; height: 40px;
-    background: url('css_sprites.png') -10px -10px;
-}
-
-x
-.bg-Asset_8 {
-    width: 40px; height: 29px;
-    background: url('css_sprites.png') -130px -10px;
-}
-
-x
-.bg-Asset_9 {
-    width: 40px; height: 38px;
-    background: url('css_sprites.png') -70px -10px;
-}
-
-x
-.bg-Asset_10 {
-    width: 40px; height: 32px;
-    background: url('css_sprites.png') -70px -70px;
-}
-
-x
-.bg-Asset_11 {
-    width: 40px; height: 25px;
-    background: url('css_sprites.png') -10px -125px;
-}
